@@ -1,0 +1,77 @@
+body {
+    background-color: #FAF9F6;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.nav-link {
+    width: 25%;
+    overflow: hidden;
+    padding: 1vw;
+}
+
+.nav-link a {
+    font-size: bigger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.big-text {
+    color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}    
+
+
+.content-box {
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 50vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-style: solid;
+    border-color: coral;
+}
+
+.content-button {
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 30vh;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: coral;
+}
+.content-button:hover {
+    width: 85%;
+    height: 40vh;
+}
+
+.placeholder {
+    height: 20vh;
+    background-color: lightgray;
+}
+
+#foot-bar {
+    position: relative;
+    bottom: 0;
+}
+
+.content-form {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
